@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda online de venta de remeras personalizadas">
+    <meta name="keywords" content="REMERAS, ANIME, OTAKU, ARGENTINA, BUENOS AIRES"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">    
+    <link rel="shortcut icon" href="../assets/img/icons/Untitled-1.png" type="image/x-icon">
+        
+        <link rel="stylesheet" href="../css/estilos.css">
+        <title>TUDO-Otaku Contactanos</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <img class="imgindex" src="../assets/img/icons/Untitled-1.png" alt="Logo" width="100" />
+            <div class="container-fluid" style="flex-direction: column;">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./quienes somos.html">Quienes somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./hombre.html">Hombre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./mujer.html">Mujer</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contactanos</a>
+                </li>
+              </ul>
+            
+            </div>
+          </div>
+        </nav>
+    </header>
+
+<main class="formulario">
+    <form action="procesar.php" name="contacto" method="post">
+        <fieldset class="recuadro">
+            <legend class="color">Hola! Escribinos</legend>
+
+            <p class="color">
+                <label for="Nombre">Nombre: </label>
+                <input class="form-control" input type="text" name="nombre">
+            </label>
+        </p>
+
+            <p class="color">
+                <label for="Apellido">Apellido:</label>
+                <input class="form-control " input type="text" name="apellido">
+            </label>
+        </p>
+
+            <p class="color">
+                <label for="Correo Electronico">Correo electronico:</label>
+                <input class="form-control" input type="email" name="nombre">
+            </label>
+        </p>
+
+            <p class="color">
+                <label for="Contraseña">Contraseña:</label>
+                <input class="form-control" input type="password" name="contraseña">
+            </label>
+        </p>
+
+        <h4 class="color">Genero</h4>
+        <label class="color" for="Genero">Mujer</label>
+        <input type="radio" name="Genero" value="Mujer">
+        <label class="color" for="Genero">Hombre</label>
+        <input type="radio" name="Genero" value="Hombre">
+        <label class="color" for="Genero">Otres</label>
+        <input type="radio" name="Genero" value="Otros">
+    
+
+        
+        <h4 class="color">Personajes</h4>
+        <p class="color">
+            <label for="personajes">Sanrio</label>
+            <input type="checkbox" name="Personajes" value="sanrio">
+        </p>
+        <p class="color">
+        <label for="personajes">Naruto</label>
+        <input type="checkbox" name="Personajes" value="naruto">
+        </p>
+        <p class="color">
+            <label for="personajes">Ahegao</label>
+            <input type="checkbox" name="Personajes" value="ahegao">
+            </p>
+
+        <h4 class="color">Te gustaria recibir novedades/promociones?</h4>
+        <select name="novedades">
+        <option value="si!">Si!</option>
+        <option value="No gracias">No gracias</option>
+    </select>
+
+
+    <h4 class="color">Dejanos tus comentarios :)</h4>
+    <textarea class="form-control" id="" cols="30" rows="10"></textarea>
+
+<p>
+<button type="submit" class="btn btn-success">Enviar</button>
+</p>
+<p>
+    <button type="reset">Cancelar</button>
+</p>
+<p>
+    <button type="button">Sin acciones</button>
+    </p>
+        </fieldset>
+</form>
+</main>
+
+    <footer id="piedepagina">
+            <h4>Desarrollado por Alejandro Fernandez Comision 41165 DW</h4>
+                <h4> Seguinos, nos seguis?</h4>
+        
+                <ul class="redessociales">
+                    <li><i class="bi bi-instagram"></i></li>
+                    <li><i class="bi bi-facebook"></i></li>
+                    <li><i class="bi bi-youtube"></i></li>
+                  </ul>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+        <script src="./libs/bootstrap/js/bootstrap.bundle.min.js"> </script>
+    </footer>
+</body>
+</html>
